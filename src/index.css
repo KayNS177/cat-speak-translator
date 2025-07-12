@@ -2,41 +2,67 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Cat Sound Analyzer Design System - Minimalist & Cat-Inspired */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Soft neutral base colors */
+    --background: 35 15% 98%;
+    --foreground: 25 8% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    /* Card colors - slightly warmer than pure white */
+    --card: 35 25% 97%;
+    --card-foreground: 25 8% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    /* Popover colors */
+    --popover: 35 25% 97%;
+    --popover-foreground: 25 8% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary - soft coral/peach accent inspired by cat warmth */
+    --primary: 15 65% 65%;
+    --primary-foreground: 35 25% 97%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary - warm light gray */
+    --secondary: 30 10% 92%;
+    --secondary-foreground: 25 8% 25%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted colors - gentle grays */
+    --muted: 25 8% 90%;
+    --muted-foreground: 25 6% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent - soft sage green for subtle highlights */
+    --accent: 120 15% 85%;
+    --accent-foreground: 25 8% 25%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Destructive - muted red */
+    --destructive: 0 45% 55%;
+    --destructive-foreground: 35 25% 97%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Borders and inputs - very subtle */
+    --border: 25 8% 88%;
+    --input: 25 8% 90%;
+    --ring: 15 65% 65%;
 
-    --radius: 0.5rem;
+    /* Rounded design for friendliness */
+    --radius: 0.75rem;
+
+    /* Custom cat-themed colors */
+    --cat-warm: 25 25% 85%;
+    --cat-soft: 35 12% 92%;
+    --cat-purr: 15 65% 65%;
+    --cat-whisper: 25 6% 55%;
+
+    /* Gradients for gentle backgrounds */
+    --gradient-soft: linear-gradient(135deg, hsl(35 15% 98%), hsl(25 20% 96%));
+    --gradient-warm: linear-gradient(135deg, hsl(15 65% 65%), hsl(25 55% 70%));
+    
+    /* Shadows for depth */
+    --shadow-gentle: 0 4px 20px -4px hsl(25 8% 15% / 0.1);
+    --shadow-warm: 0 8px 30px -8px hsl(15 65% 65% / 0.2);
+
+    /* Smooth transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --sidebar-background: 0 0% 98%;
 
