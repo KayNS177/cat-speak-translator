@@ -17,6 +17,13 @@ export const LandingPage = ({ onStartAnalysis }: LandingPageProps) => {
           </div>
         </div>
 
+        {/* Brand Name */}
+        <div className="mb-2">
+          <h2 className="text-2xl md:text-3xl font-medium text-primary tracking-wide">
+            Pawlinggo
+          </h2>
+        </div>
+
         {/* Main Heading */}
         <div className="space-y-4">
           <h1 className="text-4xl md:text-5xl font-light text-foreground leading-tight">
